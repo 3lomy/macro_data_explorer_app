@@ -3,8 +3,6 @@ jupyter_dash
 dash_bootstrap_components
 pandas
 numpy
-io
-base64
 plotly.express
 plotly.graph_objects
 sklearn
