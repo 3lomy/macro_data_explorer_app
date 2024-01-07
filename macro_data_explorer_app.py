@@ -199,7 +199,7 @@ data_setup_section = html.Div([
                 html.Div([
             
                         html.H5('Data Setup', className='headings',), 
-                        html.Hr(style={'borderWidth': "50vh", "width": "100%", "borderColor": 'black',"opacity": "unset"}),
+                        html.Hr(style={"width": "100%", "borderColor": 'black',"opacity": "unset"}),
                         html.H6('Select Year Range For Analysis:', style={'font-family': 'Calibri Light'}), 
                         dcc.RangeSlider(id='data-setup-range-slider',
                                         marks = {
@@ -535,7 +535,7 @@ peer_analysis_section =  html.Div([
                 html.Div([
                     
                         html.H5('Peer Analysis', className='headings',), 
-                        html.Hr(style={'borderWidth': "50vh", "width": "100%", "borderColor": 'black',"opacity": "unset"}),
+                        html.Hr(style={"width": "100%", "borderColor": 'black',"opacity": "unset"}),
                         html.H6('Select Country in Focus:'), 
                     
                         dcc.Dropdown(id ='country-focus-peer-analysis-dropdown',
