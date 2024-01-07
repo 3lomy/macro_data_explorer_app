@@ -3,7 +3,6 @@ jupyter_dash
 dash_bootstrap_components
 pandas
 numpy
-plotly.express
-plotly.graph_objects
+plotly
 sklearn
 dash_extensions
