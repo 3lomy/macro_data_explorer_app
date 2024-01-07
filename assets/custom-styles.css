@@ -1,0 +1,113 @@
+/*
+
+selector {
+  property: value;
+  property: value;
+}
+
+using selectors:
+# represensts code for using id for styling (Id selector) eg. #update-button
+. represents using class (Class Selector) eg. .dropdown
+(Type Slector) eg. button
+
+*/
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	background-color: #4169E1; /*silver; */
+    z-index: 50;
+    padding: 5px;  /* Add padding for spacing */
+	text-align: center;
+    font: bold;
+   /* font-family: Arial;  /* Add this line to set the font type */
+    font-family: 'Broadway', sans-serif;  /* Add this line to set the font type */
+   /* font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Add this line to set the font type */
+    color: white;
+   /*font-family: 'Montserrat', sans-serif; /* Add this line to set the font type */
+}
+
+
+.content {
+    margin-top: 50px;  /* Adjust this value to match the height of the header */
+    padding: 0px;  /* Add padding for spacing */
+}
+
+.footer {
+	background-color: silver; 
+}
+
+
+.headings {
+    text-align: center;
+    font: bold;
+    font-family: 'Broadway', sans-serif;  /* Add this line to set the font type */
+}
+
+/* Text
+---------------------------------------------------*/
+h5 {
+  /* letter-spacing: 1.0px; */
+  font-family: Calibri Light;
+  font-weight: 200;
+}
+
+
+h6 {
+  /* letter-spacing: 1.0px; */
+  font-family: Calibri Light;
+  font-weight: 200;
+}
+
+
+/* Buttons
+---------------------------------------------------*/
+
+.button {
+  margin-left: 150px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+
+.button-collapse {
+  width: 200px;
+  margin-left: 150px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+
+/* Dropdowns
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.Select-control {
+    color: #a5b1cd;
+}
+
+.Select {
+    color: #a5b1cd;
+}
+
+.Select-menu-outer {
+    background-color: #2f3445;
+    border: 1px solid gray;
+}
+
+.Select div {
+    background-color: #2f3445;
+}
+
+.Select-menu-outer div:hover {
+    background-color: rgba(255, 255, 255, 0.01);
+}
+
+.Select-value-label {
+    color: #a5b1cd !important;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    border: 1px solid gray;
+    border-radius: 4px;
+}
